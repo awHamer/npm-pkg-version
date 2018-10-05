@@ -1,0 +1,19 @@
+{
+  "name": "npm-pkg-version",
+  "version": "0.0.1",
+  "description": "Lightweight cli tool to get currently installed package version",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "package version"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npmver": "index.js"
+  },
+  "author": "Igor Ukolov",
+  "license": "MIT",
+  "dependencies": {}
+}
