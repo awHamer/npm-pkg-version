@@ -54,9 +54,11 @@ function getVersion(packageName) {
   }
 
   try {
-    const pkg = require(`${getNodeModulesPath()}/packageName/package.json`); // eslint-disable-line global-require, import/no-dynamic-require
+    const pkg = require(`${getNodeModulesPath()}/${packageName}/package.json`); // eslint-disable-line global-require, import/no-dynamic-require
+    console.log('');
     console.log(' -> Package Name:', styles.green, packageName, styles.reset, isGlobal ? '(global)' : '');
     console.log(styles.underscore, '-> Package version:', styles.green, pkg.version);
+    console.log('');
   } catch (e) {
     if (e.code === 'MODULE_NOT_FOUND') {
       error(`Module "${packageName}" was not found in your node_modules folder.`);

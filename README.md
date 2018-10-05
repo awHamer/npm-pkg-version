@@ -1,6 +1,6 @@
 ## npm-pkg-version
 
-A lightweight cli tool for getting proper version of npm package both locally and globally 
+Lightweight cli tool for getting currently installed package version. 
 
 ## Installation
 
