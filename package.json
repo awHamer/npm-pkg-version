@@ -1,6 +1,6 @@
 {
   "name": "npm-pkg-version",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight cli tool to get currently installed package version",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,8 @@
     "package version"
   ],
   "scripts": {
+    "start": "node index.js",
+    "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -20,5 +22,10 @@
     "type": "git",
     "url": "https://github.com/awHamer/npm-pkg-version.git"
   },
-  "homepage": "https://github.com/awHamer/npm-pkg-version"
+  "homepage": "https://github.com/awHamer/npm-pkg-version",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
 }
