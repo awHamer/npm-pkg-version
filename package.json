@@ -1,7 +1,7 @@
 {
   "name": "npm-pkg-version",
   "version": "0.0.3",
-  "description": "Lightweight cli tool to get currently installed package version",
+  "description": "Lightweight cli tool for getting currently installed package version",
   "main": "index.js",
   "keywords": [
     "npm",
