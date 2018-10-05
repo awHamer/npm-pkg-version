@@ -29,4 +29,6 @@ Output
 
 ---
 
-**MIT Licensed**
+## License
+
+[MIT](LICENSE)

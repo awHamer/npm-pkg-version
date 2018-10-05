@@ -12,7 +12,6 @@ const isGlobal = argv[0] === 'global' && argv.length > 1;
 const styles = {
   red: '\x1b[35m',
   green: '\x1b[32m',
-  underscore: '\x1b[4m',
   reset: '\x1b[0m',
 };
 
@@ -56,8 +55,8 @@ function getVersion(packageName) {
   try {
     const pkg = require(`${getNodeModulesPath()}/${packageName}/package.json`); // eslint-disable-line global-require, import/no-dynamic-require
     console.log('');
-    console.log(' -> Package Name:', styles.green, packageName, styles.reset, isGlobal ? '(global)' : '');
-    console.log(styles.underscore, '-> Package version:', styles.green, pkg.version);
+    console.log(' Package Name:', styles.green, packageName, styles.reset, isGlobal ? '(global)' : '');
+    console.log(' Package Version:', styles.green, pkg.version);
     console.log('');
   } catch (e) {
     if (e.code === 'MODULE_NOT_FOUND') {
