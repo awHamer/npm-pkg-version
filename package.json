@@ -1,6 +1,6 @@
 {
   "name": "npm-pkg-version",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lightweight cli tool to get currently installed package version",
   "main": "index.js",
   "keywords": [
@@ -15,5 +15,10 @@
   },
   "author": "Igor Ukolov",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awHamer/npm-pkg-version.git"
+  },
+  "homepage": "https://github.com/awHamer/npm-pkg-version"
 }
