@@ -22,11 +22,13 @@ $ npmver global npm
 Output
 
 ```
- -> Package Name:  npm  (global)
- -> Package version:  6.4.1
+ Package Name:  npm  (global)
+ Package version:  6.4.1
 ```
 
 
 ---
 
-**MIT Licensed**
+## License
+
+[MIT](LICENSE)

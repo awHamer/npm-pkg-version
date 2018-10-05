@@ -1,11 +1,16 @@
 {
   "name": "npm-pkg-version",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lightweight cli tool for getting currently installed package version",
   "main": "index.js",
   "keywords": [
     "npm",
-    "package version"
+    "package",
+    "current",
+    "installed",
+    "version",
+    "package.json",
+    "cli"
   ],
   "scripts": {
     "start": "node index.js",
